@@ -330,7 +330,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© PBZ Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
-      .addField('شكرا لك لاستخدامك ل اس ال جي بوت', `https://discordapp.com/api/oauth2/authorize?client_id=532101722055639041&permissions=0&scope=bot`)
+      .addField('عذراً ان البوت خاص لكلان بي بي زد', `:)`)
   message.author.send({embed});
 
  }
